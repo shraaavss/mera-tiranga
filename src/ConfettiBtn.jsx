@@ -15,7 +15,7 @@ function ConfettiButton() {
     return (
         <div>
             <button onClick={handleConfettiClick}>Jai Hind!</button>
-            {throwConfetti && <Confetti />}
+            {throwConfetti && <Confetti colors={["#FF9933", "#138808", "#000080"]} />}
         </div>
     );
 }
