@@ -1,12 +1,10 @@
 import React from "react"
+import Tiranga from "./Tiranga"
 
-function App() {
-
-  return (
-    <>
-      
-    </>
+export default function App(){
+  return(
+    <div>
+      <Tiranga />
+    </div>
   )
 }
-
-export default App
