@@ -7,15 +7,13 @@ const Tiranga = () => {
 
             <div className='flag'>
 
-                <div className="flag-pole">
-
-                </div>
+                <div className="flag-pole"></div>
 
                 <div className="flag-tricolor">
 
-                    <div className="orang">
+                    <div className="shine"></div>
 
-                    </div>
+                    <div className="orang"></div>
 
                     <div className="white">
 
@@ -50,9 +48,7 @@ const Tiranga = () => {
 
                     </div>
 
-                    <div className="green">
-
-                    </div>
+                    <div className="green"></div>
 
                 </div>
 

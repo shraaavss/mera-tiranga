@@ -33,7 +33,6 @@ body {
     width: 350px;
     height: 234px;
     display: flex;
-    border: 2px solid black;
     border-radius: 2px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -46,6 +45,31 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+.shine {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(128deg, rgba(124, 124, 124, 0) 40%, rgba(255, 255, 255, 0.5187324929971988) 50%, rgba(124, 124, 124, 0) 53%);
+    animation: shineAnimation 10s infinite linear;
+}
+
+@keyframes shineAnimation {
+    0% {
+        background-position:
+            -400px 0px, -400px 0px,
+            -400px 0px, -400px 0px;
+    }
+
+    100% {
+        background-position: 800px 0px,
+            800px 0px,
+            800px 0px,
+            800px 0px;
+    }
+
+}
+
+  
 .orang {
     background-color: #FF9933;
 }
@@ -67,6 +91,18 @@ body {
     border: 2px solid #000080;
     width: 69px;
     height: 69px;
+    animation: ashoka-chakra 10s infinite linear;
+
+}
+
+@keyframes ashoka-chakra{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .spoke {
@@ -80,27 +116,98 @@ body {
     transform-style: preserve-3d;
 }
 
-.spoke-1 { transform: translateX(-50%) rotate(15deg); }
-.spoke-2 { transform: translateX(-50%) rotate(30deg); }
-.spoke-3 { transform: translateX(-50%) rotate(45deg); }
-.spoke-4 { transform: translateX(-50%) rotate(60deg); }
-.spoke-5 { transform: translateX(-50%) rotate(75deg); }
-.spoke-6 { transform: translateX(-50%) rotate(90deg); }
-.spoke-7 { transform: translateX(-50%) rotate(105deg); }
-.spoke-8 { transform: translateX(-50%) rotate(120deg); }
-.spoke-9 { transform: translateX(-50%) rotate(135deg); }
-.spoke-10 { transform: translateX(-50%) rotate(150deg); }
-.spoke-11 { transform: translateX(-50%) rotate(165deg); }
-.spoke-12 { transform: translateX(-50%) rotate(180deg); }
-.spoke-13 { transform: translateX(-50%) rotate(195deg); }
-.spoke-14 { transform: translateX(-50%) rotate(210deg); }
-.spoke-15 { transform: translateX(-50%) rotate(225deg); }
-.spoke-16 { transform: translateX(-50%) rotate(240deg); }
-.spoke-17 { transform: translateX(-50%) rotate(255deg); }
-.spoke-18 { transform: translateX(-50%) rotate(270deg); }
-.spoke-19 { transform: translateX(-50%) rotate(285deg); }
-.spoke-20 { transform: translateX(-50%) rotate(300deg); }
-.spoke-21 { transform: translateX(-50%) rotate(315deg); }
-.spoke-22 { transform: translateX(-50%) rotate(330deg); }
-.spoke-23 { transform: translateX(-50%) rotate(345deg); }
-.spoke-24 { transform: translateX(-50%) rotate(0deg); } 
+.spoke-1 {
+    transform: translateX(-50%) rotate(15deg);
+}
+
+.spoke-2 {
+    transform: translateX(-50%) rotate(30deg);
+}
+
+.spoke-3 {
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.spoke-4 {
+    transform: translateX(-50%) rotate(60deg);
+}
+
+.spoke-5 {
+    transform: translateX(-50%) rotate(75deg);
+}
+
+.spoke-6 {
+    transform: translateX(-50%) rotate(90deg);
+}
+
+.spoke-7 {
+    transform: translateX(-50%) rotate(105deg);
+}
+
+.spoke-8 {
+    transform: translateX(-50%) rotate(120deg);
+}
+
+.spoke-9 {
+    transform: translateX(-50%) rotate(135deg);
+}
+
+.spoke-10 {
+    transform: translateX(-50%) rotate(150deg);
+}
+
+.spoke-11 {
+    transform: translateX(-50%) rotate(165deg);
+}
+
+.spoke-12 {
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.spoke-13 {
+    transform: translateX(-50%) rotate(195deg);
+}
+
+.spoke-14 {
+    transform: translateX(-50%) rotate(210deg);
+}
+
+.spoke-15 {
+    transform: translateX(-50%) rotate(225deg);
+}
+
+.spoke-16 {
+    transform: translateX(-50%) rotate(240deg);
+}
+
+.spoke-17 {
+    transform: translateX(-50%) rotate(255deg);
+}
+
+.spoke-18 {
+    transform: translateX(-50%) rotate(270deg);
+}
+
+.spoke-19 {
+    transform: translateX(-50%) rotate(285deg);
+}
+
+.spoke-20 {
+    transform: translateX(-50%) rotate(300deg);
+}
+
+.spoke-21 {
+    transform: translateX(-50%) rotate(315deg);
+}
+
+.spoke-22 {
+    transform: translateX(-50%) rotate(330deg);
+}
+
+.spoke-23 {
+    transform: translateX(-50%) rotate(345deg);
+}
+
+.spoke-24 {
+    transform: translateX(-50%) rotate(0deg);
+}
