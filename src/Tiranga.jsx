@@ -1,7 +1,9 @@
 import React from 'react'
 import './Tiranga.css'
+import ConfettiButton from './ConfettiBtn'
 
 const Tiranga = () => {
+
     return (
         <div className="wrapper">
 
@@ -52,7 +54,12 @@ const Tiranga = () => {
 
                 </div>
 
+
+
             </div>
+
+            <ConfettiButton />
+
 
         </div>
     )
